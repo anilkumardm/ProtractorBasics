@@ -6,6 +6,6 @@ directConnect:true,
 
 framework: 'jasmine2',
 seleniumAddress: 'http://localhost:4444/wd/hub',
-specs: ['BankingLogin.js']
+specs: ['LocatorByModel.js']
 
 }

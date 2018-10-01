@@ -9,6 +9,7 @@ describe("Locator by model test", function() {
 		element(by.buttonText("Login")).click();
 		element(by.xpath("/html/body/div[3]/div/div/div/h1")).getText().then(function(text) {
 			console.log(text);
+			expect("Home").toContain(text);
 		});
 		browser.sleep(4000);
 	});
